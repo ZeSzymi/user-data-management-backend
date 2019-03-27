@@ -1,0 +1,14 @@
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\UserDataManagementTests.deps.json
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\UserDataManagementTests.runtimeconfig.json
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\UserDataManagementTests.runtimeconfig.dev.json
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\UserDataManagementTests.dll
+E:\projekty\user-data-management-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\UserDataManagementTests.pdb
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.csprojAssemblyReference.cache
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.csproj.CoreCompileInputs.cache
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.AssemblyInfoInputs.cache
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.AssemblyInfo.cs
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.dll
+E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.pdb
