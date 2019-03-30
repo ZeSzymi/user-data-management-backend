@@ -33,7 +33,7 @@ namespace userDataManagement.Controllers
 
         [HttpPost()]
         [Route("add")]
-        public async Task<IActionResult> AddUser(UserDto user) {
+        public async Task<IActionResult> AddUser([FromBody] UserDto user) {
             try {
                 return Ok(await _usersReposiotry.AddUser(_mapper.Map<UserDb>(user)));
             }
