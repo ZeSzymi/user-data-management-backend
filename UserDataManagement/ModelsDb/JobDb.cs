@@ -6,6 +6,6 @@ namespace userDataManagement.ModelsDb
     public class JobDb : Job
     {
         public ClientDb Client { get; set; }
-        public List<UserJobDb> UserJob { get; set; }
+        public UserDb User { get; set; }
     }
 }

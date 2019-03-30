@@ -31,6 +31,12 @@ namespace userDataManagement
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<ManagementContext>(x => x.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
             services.AddTransient<IUsersRepository, UsersRepository>();
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,12 +52,15 @@ namespace userDataManagement
                 app.UseHsts();
             }
 
+            app.UseCors("MyPolicy");
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller}/{action=Index}/{id?}");
             });
+
         }
     }
 }

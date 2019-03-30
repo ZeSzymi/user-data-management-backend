@@ -2,14 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace userDataManagement.Migrations
 {
     [DbContext(typeof(ManagementContext))]
-    partial class ManagementContextModelSnapshot : ModelSnapshot
+    [Migration("20190330135439_UsersJobsRelationsChanged")]
+    partial class UsersJobsRelationsChanged
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,7 +67,9 @@ namespace userDataManagement.Migrations
 
                     b.Property<string>("Email");
 
-                    b.Property<int>("Phone");
+                    b.Property<int>("HoursWorked");
+
+                    b.Property<string>("TypeOfWork");
 
                     b.Property<string>("Username");
 

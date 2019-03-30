@@ -6,5 +6,6 @@ namespace userDataManagement.Models
         public string Type { get; set; }
         public int HoursReported { get; set; }
         public int ClientId { get; set; }
+        public int UserId { get; set; }
     }
 }

@@ -5,7 +5,6 @@ namespace userDataManagement.Models
         public int Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
-        public int HoursWorked { get; set; }
-        public string TypeOfWork { get; set; }
+        public int Phone { get; set; }
     }
 }
