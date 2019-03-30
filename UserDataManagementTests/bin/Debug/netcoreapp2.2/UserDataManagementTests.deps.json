@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "UserDataManagementTests/1.0.0": {
+      "userDataManagementTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
-          "UserDataManagementTests.dll": {}
+          "userDataManagementTests.dll": {}
         }
       },
       "Microsoft.CodeCoverage/15.9.0": {
@@ -1056,7 +1056,7 @@
     }
   },
   "libraries": {
-    "UserDataManagementTests/1.0.0": {
+    "userDataManagementTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

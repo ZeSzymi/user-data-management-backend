@@ -31,7 +31,7 @@ namespace userDataManagement.Controllers
             }
         }
 
-        [HttpPost("")]
+        [HttpPost()]
         [Route("add")]
         public async Task<IActionResult> AddUser(UserDto user) {
             try {

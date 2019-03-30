@@ -5855,23 +5855,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\szymi\\.nuget\\packages\\": {},
+    "C:\\Users\\Szymi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projekty\\user-data-management-core\\UserDataManagementTests\\UserDataManagementTests.csproj",
-      "projectName": "UserDataManagementTests",
-      "projectPath": "E:\\projekty\\user-data-management-core\\UserDataManagementTests\\UserDataManagementTests.csproj",
-      "packagesPath": "C:\\Users\\szymi\\.nuget\\packages\\",
-      "outputPath": "E:\\projekty\\user-data-management-core\\UserDataManagementTests\\obj\\",
+      "projectUniqueName": "e:\\Projects\\Studia\\user-core\\UserDataManagementTests\\userDataManagementTests.csproj",
+      "projectName": "userDataManagementTests",
+      "projectPath": "e:\\Projects\\Studia\\user-core\\UserDataManagementTests\\userDataManagementTests.csproj",
+      "packagesPath": "C:\\Users\\Szymi\\.nuget\\packages\\",
+      "outputPath": "e:\\Projects\\Studia\\user-core\\UserDataManagementTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\szymi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Szymi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

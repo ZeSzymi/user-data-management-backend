@@ -12,3 +12,17 @@ E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcorea
 E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.AssemblyInfo.cs
 E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.dll
 E:\projekty\user-data-management-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\UserDataManagementTests.pdb
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\userDataManagementTests.deps.json
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\userDataManagementTests.runtimeconfig.json
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\userDataManagementTests.runtimeconfig.dev.json
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\userDataManagementTests.dll
+E:\Projects\Studia\user-core\UserDataManagementTests\bin\Debug\netcoreapp2.2\userDataManagementTests.pdb
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.csprojAssemblyReference.cache
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.csproj.CoreCompileInputs.cache
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.AssemblyInfoInputs.cache
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.AssemblyInfo.cs
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.dll
+E:\Projects\Studia\user-core\UserDataManagementTests\obj\Debug\netcoreapp2.2\userDataManagementTests.pdb
