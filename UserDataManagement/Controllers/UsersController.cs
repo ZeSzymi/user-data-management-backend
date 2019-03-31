@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -34,13 +35,14 @@ namespace userDataManagement.Controllers
         [HttpPost()]
         [Route("add")]
         public async Task<IActionResult> AddUser([FromBody] UserDto user) {
+
             try {
                 return Ok(await _usersReposiotry.AddUser(_mapper.Map<UserDb>(user)));
             }
-            catch {
-                return BadRequest("Błąd przy dodawaniu nowego użytkownika");
-            }
-        }
+            catch (Exception ex) {               
+               return BadRequest("Bład przy dodawaniu nowego użytkownika" + ex.Message);
+            } 
+        }      
     }
 }
     

@@ -29,9 +29,10 @@ namespace userDataManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
             services.AddDbContext<ManagementContext>(x => x.UseSqlServer(Configuration.GetConnectionString("UserDatabase")));
             services.AddTransient<IUsersRepository, UsersRepository>();
+            services.AddTransient<IJobsRepository, JobsRepository>();
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
     {
         builder.AllowAnyOrigin()
@@ -39,6 +40,7 @@ namespace userDataManagement
                .AllowAnyHeader();
     }));
         services.AddAutoMapper();
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

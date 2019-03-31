@@ -9,7 +9,9 @@ namespace userDataManagement.Helpers
         public AutoMapperProfiles()
         {
             CreateMap<UserDb, UserDto>();
-            CreateMap<UserDto, UserDb>();
+            CreateMap<UserDto, UserDb>();        
+            CreateMap<JobDb, JobDto>();
+            CreateMap<JobDto, JobDb>();
         }
     }
 }
