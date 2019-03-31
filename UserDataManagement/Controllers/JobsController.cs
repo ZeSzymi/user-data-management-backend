@@ -28,7 +28,8 @@ namespace userDataManagement.Controllers
         {
             try
             {
-                return Ok(await _jobsRepository.GetJobs());
+                var jobs = _mapper.Map<List<JobDto>>(await _jobsRepository.GetJobs());
+                return Ok(jobs);
             }
             catch (Exception ex)
             {
