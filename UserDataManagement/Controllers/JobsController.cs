@@ -52,6 +52,22 @@ namespace userDataManagement.Controllers
             }
         }
 
+        [HttpPost()]
+        [Route("remove")]
+        public async Task<IActionResult> RemoveJob([FromBody] JobDto job)
+        {
+
+            try
+            {
+                return Ok(await _jobsRepository.RemoveJob(_mapper.Map<JobDb>(job)));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Bład przy dodawaniu nowego użytkownika" + ex.Message);
+            }
+        }
+
+
         [HttpGet("file")]
         public async Task<IActionResult> ReadFile()
         {

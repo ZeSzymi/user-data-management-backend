@@ -43,6 +43,17 @@ namespace userDataManagement.Controllers
                return BadRequest("Bład przy dodawaniu nowego użytkownika" + ex.Message);
             } 
         }      
+        [HttpPost()]
+        [Route("remove")]
+        public async Task<IActionResult> RemoveUser([FromBody] UserDto user) {
+
+            try {
+                return Ok(await _usersReposiotry.RemoveUser(_mapper.Map<UserDb>(user)));
+            }
+            catch (Exception ex) {               
+               return BadRequest("Bład przy dodawaniu nowego użytkownika" + ex.Message);
+            } 
+        }      
     }
 }
     
